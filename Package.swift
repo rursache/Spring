@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Spring",
     platforms: [
-        .iOS(.v8), .tvOS(.v11)
+        .iOS(.v9), .tvOS(.v11)
     ],
     products: [
         .library(name: "Spring", targets: ["Spring"])
